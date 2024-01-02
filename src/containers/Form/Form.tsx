@@ -1,10 +1,13 @@
-
-import { BillInput } from '../../components/exports';
+import styles from './Form.module.css';
 
 const Form = () => {
   return (
     <form>
-      <BillInput />
+      <div className={styles.input}>
+        <label>Bill</label>
+        <img src='./images/icon-dollar.svg' alt='Dollar icon' />
+        <input type='text' placeholder='0' />
+      </div>
     </form>
   );
 };

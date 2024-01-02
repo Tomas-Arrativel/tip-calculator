@@ -1,10 +1,11 @@
 import './App.css';
-import { Form } from './containers/exports';
+import { Form, TipResult } from './containers/exports';
 
 function App() {
   return (
     <main>
       <Form />
+      <TipResult />
     </main>
   );
 }

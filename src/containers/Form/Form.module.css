@@ -1,0 +1,43 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.input label {
+  font-size: 15px;
+  color: var(--dark-grayish-cyan);
+  margin-bottom: 5px;
+}
+.input input {
+  font-size: 20px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--very-light-cyan);
+  text-align: end;
+  border: 2px solid transparent;
+  color: var(--dark-cyan);
+}
+.input input::placeholder {
+  color: hsla(186, 14%, 56%, 0.7);
+}
+.input input:focus {
+  border-color: var(--cyan);
+  outline: none;
+}
+
+.input img {
+  height: 18px;
+  color: hsla(186, 14%, 56%, 0.7);
+  position: absolute;
+  top: 42px;
+  left: 15px;
+}

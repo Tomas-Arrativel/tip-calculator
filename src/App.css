@@ -1,0 +1,7 @@
+main {
+  background-color: var(--white);
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  width: 800px;
+}
