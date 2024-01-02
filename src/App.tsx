@@ -1,9 +1,10 @@
 import './App.css';
+import { Form } from './containers/exports';
 
 function App() {
   return (
     <main>
-      <h1>Hello World</h1>
+      <Form />
     </main>
   );
 }
