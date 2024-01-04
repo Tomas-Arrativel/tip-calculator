@@ -5,6 +5,7 @@ form {
   flex: 1;
 }
 
+/* First input styling */
 .input {
   display: flex;
   flex-direction: column;
@@ -40,4 +41,54 @@ form {
   position: absolute;
   top: 42px;
   left: 15px;
+}
+
+/* Boxes of % */
+.tip {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.tip label {
+  font-size: 15px;
+  color: var(--dark-grayish-cyan);
+  margin-bottom: 5px;
+}
+
+.tip__button {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.tip__button button,
+.tip__button input {
+  flex: 1;
+  width: 50px;
+  padding: 0.3rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.tip__button button {
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  transition: all 0.2s;
+}
+.tip__button button:hover {
+  background-color: hsl(172, 78%, 75%);
+  color: var(--dark-cyan);
+}
+
+.tip__button input {
+  background-color: var(--very-light-cyan);
+  color: var(--dark-cyan);
+}
+.tip__button input:focus {
+  outline-color: var(--cyan);
+}
+.tip__button input::placeholder {
+  color: hsla(186, 14%, 56%, 0.7);
 }
