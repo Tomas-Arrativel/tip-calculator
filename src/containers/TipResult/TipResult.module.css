@@ -1,3 +1,36 @@
 .container {
   flex: 1;
+  background-color: var(--dark-cyan);
+  border-radius: 0.5rem;
+}
+
+.tips {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  padding: 0 1rem;
+}
+.tips:last-child {
+  margin-top: 0.6rem;
+}
+
+/* Text styling */
+.textCont {
+  display: flex;
+  flex-direction: column;
+}
+.textCont p {
+  font-size: 17px;
+  color: var(--white);
+}
+.textCont span {
+  font-size: 15px;
+  color: var(--grayish-cyan);
+}
+
+/* Result of the tip styling */
+.tipNumbers {
+  color: var(--cyan);
+  font-size: 2rem;
 }
