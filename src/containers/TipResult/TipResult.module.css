@@ -4,12 +4,15 @@
   border-radius: 0.5rem;
 }
 
+.tipContainer {
+  padding: 1rem;
+  padding-top: 1.3rem;
+}
+
 .tips {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1.5rem;
-  padding: 0 1rem;
 }
 .tips:last-child {
   margin-top: 0.6rem;
@@ -33,4 +36,7 @@
 .tipNumbers {
   color: var(--cyan);
   font-size: 2rem;
+}
+
+.btn {
 }
