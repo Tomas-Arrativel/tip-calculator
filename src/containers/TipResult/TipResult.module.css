@@ -38,7 +38,7 @@
 /* Result of the tip styling */
 .tipNumbers {
   color: var(--cyan);
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .btn {
